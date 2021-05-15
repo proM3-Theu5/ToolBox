@@ -53,3 +53,43 @@
 
 >1. Function returns a hexa color code
 >2. The generated value should be prefixed with '#' and used as required
+
+<br>
+
+><h4 align = 'left'><b>Gdrive_Download</b></h3>
+>Script to download any shared GDrive file (which has been shared to all those who have access to the shared URL)
+
+><h4 align = 'left'><b>How To Use</b></h4>
+
+><h4 align = 'left'><i>Pre-Requisites</i></h4>
+
+>1.	Python installed on the machine
+>2. File GDrive Shared Link
+
+><h4 align = 'left'><i>Use</i></h4>
+
+>1. Extract the file id from the shared link. Usually this would be present in the shared URL as https://drive.google.com/file/d/<file_id_here>/view?usp=sharing
+>2. The file ID should be passed in gdrive_file_id variable in the script
+>3. destination_filename variable should be updated with the name with which the file should be saved once downloaded
+>4. download_dir variable should be updated with the directory path at which the file should be downloaded
+
+<br>
+
+><h4 align = 'left'><b>Tar_Extract</b></h3>
+>Script to extract the files from a .tar or .tar.gz archive file
+
+><h4 align = 'left'><b>How To Use</b></h4>
+
+><h4 align = 'left'><i>Pre-Requisites</i></h4>
+
+>1.	Python installed on the machine
+>2. .tar or .tar.gz file in an accessible file path
+
+><h4 align = 'left'><i>Use</i></h4>
+
+>1. destination_filename variable should be updated with the name of the archive file
+>2. download_dir variable should be updated with the directory path where the tar file is available
+
+><h4 align = 'left'><i>Extra</i></h4>
+
+>1. get_md5sum function can be used to verify the md5sum value for the files extracted.
